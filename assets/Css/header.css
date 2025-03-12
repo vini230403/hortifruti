@@ -1,0 +1,89 @@
+.headerContainer {
+    width: 110%;
+    height: 100px;
+    margin: 0 .5rem;
+    flex-direction: column;
+    margin-top: -8px;
+    margin-left: -7px;
+    background: url('../image/background.png')
+}
+
+.inputContainer {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 20px;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.headerContainer .inputContainer .input {
+    border-radius: 5px;
+    border: 1px solid #E0E0E0CC;
+    width: 60%;
+    height: 35px;
+    background-color: transparent;
+    color: #E0E0E0CC;
+    font-size: 13px;
+    margin-top: .5rem;
+    margin-left: 7%;
+}
+
+.searchButton {
+    display: none;  
+}
+
+.headerContainer .searchButton, .menuButton {
+    position: absolute; 
+    left: 190px; 
+    margin-top: .9rem;
+    width: 40px; 
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 5px 5px 0; 
+    transition: background-color 0.25s;
+}
+
+.headerContainer .searchIcon {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    left: 220%;
+    margin-top: 20px;
+    background-image: url('../image/icons/search.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+}
+
+.headerContainer .menuIcon {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    left: 520%;
+    margin-top: 25px;
+    background-image: url('../image/icons/menu.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+}
+
+.centeredLogo {
+    margin-top: 15px;
+    margin-left: 40%;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+}
+
+.logoButton {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
